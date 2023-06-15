@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Nonogram</title>
+</head>
+
+<body>
+    <button id="NNGbtn" onclick="location.href='../index.html'">返回個人履歷</button>
+    <div id="settingBoard">
+        <b>版面配置:</b>
+        <input type="text" id="row" class="settingItem" placeholder="Rows">
+        <b>×</b>
+        <input type="text" id="col" class="settingItem" placeholder="Cols">
+    </div>
+    <div id="difficultBoard">
+        <b>難度:</b>
+        <input type="text" id="difficult" placeholder="1~3">
+        <b>生命值:</b>
+        <input type="text" id="life" value="3">
+    </div>
+    <div id="confirmBtnBoard">
+        <button id="confirmBtn">確定 / 重置</button>
+    </div>
+    <div id='warningBoard'>
+        <b>提示: 如果版面亂掉請重新縮放頁面大小，點擊灰框可以得到完整提示</b>
+    </div>
+    <div id="nowLifeBoard">
+        <b id="nowLifeText">當前生命值:</b>
+        <div id="nowLife">0</div>
+    </div>
+    </div>
+    <div id="container">
+        <div id="Board">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
