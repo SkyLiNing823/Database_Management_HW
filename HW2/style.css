@@ -1,0 +1,91 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.br {
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.paragraph {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.block {
+    background-color: rgb(251, 230, 185);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+#main {
+    background-color: rgb(250, 245, 219, 0.8);
+    margin: auto;
+    width: 90%;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+#profile_left {
+    margin-left: 5%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    width: 180%;
+}
+
+#profile_img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#profile_right {
+    margin-right: 5%;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: bold;
+    width: 180%;
+}
+
+#container {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+#left {
+    margin-left: 3%;
+    margin-right: 1.5%;
+    width: 180%;
+}
+
+#right {
+    margin-left: 1.5%;
+    margin-right: 3%;
+    width: 180%;
+}
+
+#NNGbtn {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    background: linear-gradient(30deg, rgb(200, 232, 253), rgb(255, 254, 166));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bat {
+    position: relative;
+    bottom: 570px;
+    left: 150px;
+}
